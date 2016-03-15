@@ -8,7 +8,8 @@ enum transformer_location_type {
   INDOOR_UNDERGROUND = 1,
   INDOOR_FLOOR = 2,
   OUTDOOR_GROUND = 3,
-  OUTDOOR_POLE = 4
+  OUTDOOR_POLE = 4,
+  UNKOWN = 5
 };
 
 struct transformer {
